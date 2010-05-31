@@ -37,7 +37,7 @@ getYear = lambda year,_functionMap=_functionMap,map=getYearMap:_functionMap("get
 #Delete this so it is not available as a service.
 del _functionMap
 
-  
+# Run Server  
 print "Starting server..."
 dispatch.AsServer(port=8888)
 
